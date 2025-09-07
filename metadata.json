@@ -1,0 +1,5 @@
+{
+  "name": "Radio Ready: AI Music Analyzer",
+  "description": "An AI-powered tool for musicians and audio engineers to analyze music tracks for radio-readiness. Get instant feedback on dynamic range, loudness, stereo width, and more to ensure your mix meets studio quality standards.",
+  "requestFramePermissions": []
+}
