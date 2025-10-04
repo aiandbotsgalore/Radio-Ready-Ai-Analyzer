@@ -12,3 +12,10 @@ export interface AnalysisResult {
   summary: string;
   metrics: Metric[];
 }
+
+export interface HistoryItem {
+  id: string;
+  fileName: string;
+  timestamp: string;
+  result: AnalysisResult;
+}

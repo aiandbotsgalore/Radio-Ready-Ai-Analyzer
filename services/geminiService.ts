@@ -89,6 +89,7 @@ export const analyzeTrack = async (fileName: string): Promise<AnalysisResult> =>
     return parsedResult;
   } catch (error) {
     console.error("Gemini API call failed:", error);
-    throw new Error("Failed to get analysis from Gemini API.");
+    // Rethrow the original error to allow for specific handling in the UI
+    throw error;
   }
 };
